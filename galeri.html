@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Wisata Gunung Bromo</title>
+    <style>
+        /* Global Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        /* Navigation Styling */
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Content Styling */
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .gallery-item {
+            width: 30%;
+            min-width: 300px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .gallery-item h3 {
+            margin: 15px 0;
+            color: #333;
+        }
+
+        .gallery-item p {
+            color: #555;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        .gallery-item button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-bottom: 15px;
+        }
+
+        .gallery-item button:hover {
+            background-color: #45a049;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Galeri Wisata Bromo</h1>
+        <p>Explore keindahan Gunung Bromo melalui galeri foto berikut!</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="destinasi.html">Destinasi</a></li>
+            <li><a href="galeri.html">Galeri</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <!-- Galeri Content -->
+    <div id="galeri" class="content">
+        <h2>Galeri Foto Gunung Bromo</h2>
+
+        <div class="gallery">
+            <!-- Gambar 1 -->
+            <div class="gallery-item">
+                <img src="edelweis.jpg" alt="Gunung Bromo">
+                <h3>Pemandangan Gunung Bromo</h3>
+                <p>Keindahan alam dan suasana yang menenangkan di Obelix Park.</p>
+                <button>Lihat Lebih Banyak</button>
+            </div>
+
+            <!-- Gambar 2 -->
+            <div class="gallery-item">
+                <img src="kuda.jpg" alt="Gunung Bruno Adventure">
+                <h3>Petualangan di Gunung Bromo</h3>
+                <p>Wahana petualangan seru untuk semua umur.</p>
+                <button>Lihat Lebih Banyak</button>
+            </div>
+
+            <!-- Gambar 3 -->
+            <div class="gallery-item">
+                <img src="jeep.jpg" alt="Gunung Bruno Attractions">
+                <h3>Atraksi di Gunung Bromo</h3>
+                <p>Atraksi menarik yang bisa dinikmati bersama keluarga.</p>
+                <button>Lihat Lebih Banyak</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Wisata Indonesia | Semua hak dilindungi</p>
+    </footer>
+
+</body>
+</html>
